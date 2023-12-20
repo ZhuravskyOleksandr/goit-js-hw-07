@@ -68,7 +68,7 @@ ol {
   border-radius: 4px;
   border: 1px solid #808080;
   padding: 8px 16px;
-  
+
 }
 
 #categories .item ul li:not(:last-child) {
@@ -95,7 +95,7 @@ img {
 }
 
 .gallery li {
-  flex-basis: calc((100% - 24 * 2) / 3 );
+  flex-basis: calc((100% - 24 * 2) / 3);
 }
 
 /* TASK-3 */
@@ -163,7 +163,7 @@ h1 {
 }
 
 .login-form button:hover {
-background-color: #6C8CFF;
+  background-color: #6C8CFF;
 }
 
 /* TASK-5 */
@@ -233,8 +233,8 @@ background-color: #6C8CFF;
 
 #controls input::-webkit-inner-spin-button,
 #controls input::-webkit-outer-spin-button {
--webkit-appearance: none;
-margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #controls button[data-create] {
@@ -257,17 +257,18 @@ margin: 0;
 }
 
 #controls button[data-destroy] {
-color: #FFF;
-font-family: "Montserrat";
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-padding: 8px 16px;
-width: 120px;
-height: 40px;
-border-radius: 8px;
-background-color: #FF4E4E;;
-border: none;
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #FF4E4E;
+  ;
+  border: none;
 }
 
 #controls button[data-destroy]:hover {
@@ -284,5 +285,3 @@ border: none;
   max-width: 500px;
   margin: 0 auto;
 }
-
-

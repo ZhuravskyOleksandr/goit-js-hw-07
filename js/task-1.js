@@ -13,4 +13,3 @@ categories.forEach(category => {
     console.log(`Category: ${categoryTitle.textContent}`);
     console.log(`Items: ${categoryItems.length}`);
 });
-

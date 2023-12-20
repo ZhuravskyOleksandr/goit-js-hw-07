@@ -39,4 +39,3 @@ destroyBtn.addEventListener('click', destroyBoxes);
 function destroyBoxes() {
   boxes.innerHTML = '';
 };
-
