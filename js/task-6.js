@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
@@ -13,8 +13,8 @@ const destroyBtn = document.querySelector('button[data-destroy]');
 
 createBtn.addEventListener('click', createBoxes);
 
-function createBoxes(amount) {
-  amount = input.value;
+function createBoxes() {
+  const amount = input.value;
 
   if (amount >= 1 && amount <= 100) {
     boxes.innerHTML = '';

@@ -9,8 +9,8 @@ function fillingForm(event) {
     const info = {};
     
     const currentForm = event.currentTarget;
-    const email = currentForm.elements.email.value;
-    const password = currentForm.elements.password.value;
+    const email = currentForm.elements.email.value.trim();
+    const password = currentForm.elements.password.value.trim();
     
 
     if (email === '' || password === '') {
